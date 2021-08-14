@@ -34,8 +34,7 @@ body{
 	z-index: 4;
 }
 .conteiner1{
-	max-width:200px;
-    max-height:50px;
+    max-height:30px;
     width: auto;
     height: auto;
 }
@@ -64,11 +63,11 @@ ul>li{
 	display: block;
 	width: 100%;
 	height: 30px;
-	background-color: #00BFFF;
+	background-color: #CCC;
 	text-align: center;
 	line-height: 30px;
 	font-weight: bold;
-	color: #8B0000;
+	color: #fff;
 }
 
 .intrucao{
@@ -76,5 +75,6 @@ ul>li{
 	display: table-cell;
 	width: 900px;
 	height: 70px;
-	background-color: #87CEFA;
+	background-color: #CCC;
+	color: #fff;
 }

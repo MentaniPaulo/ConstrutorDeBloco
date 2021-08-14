@@ -4,6 +4,7 @@ var py = 100;
 var px = 0;
 obj.style.top = py+"px";
 var cor = "#CD5C5C";
+obj.style.backgroundColor = cor;
 
 document.addEventListener("keydown",move);
 console.log(window.screen.width);
@@ -64,6 +65,7 @@ function move() {
 
 		obj.style.left = px+"px";
 		obj.style.top = py+"px";
+		obj.style.backgroundColor = cor;
 }
 
 
